@@ -1,0 +1,107 @@
+.mainAuth{
+    background-color: #fff;
+    width: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    margin:12% auto;
+}
+.fieldsetLogIn{
+    border: none;
+}
+.navAuth{
+    display: flex;
+    flex-direction: column;
+}
+.navAuth p{
+    width: 350px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.authRef{
+    text-decoration: none;
+    color: #F6AC1C;
+    font-weight: 500;
+}
+.h_main{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    color: #F6AC1C;
+}
+.butAuth{
+    background-color:#F6AC1C ;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 20px;
+    width: 100px;
+    font-style:normal;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.authForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fieldsetLogIn{
+    width: 340px;
+    display: flex;
+    justify-content:space-around;
+}
+.fieldsetLogIn label,input {
+    font-family: 'Roboto';
+    font-size: 18px;
+
+}
+.fieldsetLogIn label{
+    color: #F6AC1C;
+    font-weight: 700;
+}
+.fieldsetLogIn input {
+    border: 1px solid #F6AC1C;
+}
+.fieldsetLogIn label{
+    margin-left: 20px;
+}
+.keyTel{
+    width: 150px;
+    cursor: pointer;
+}
+.regAuth {
+    width: 500px;
+}
+#RegBut{
+    width: 180px;
+    display: block;
+}
+.navButAuth,.divNavReg{
+    display: flex;
+    flex-direction: column;
+    height:80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.routeRefBack{
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -15px;
+    background-color: #fff;
+}
+.dataPas{
+    justify-content:space-evenly;
+    width: 320px;
+}

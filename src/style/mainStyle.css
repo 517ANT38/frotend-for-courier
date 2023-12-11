@@ -1,0 +1,618 @@
+html,body{
+    background: #F6F6F6;
+    font-family: 'Roboto';
+    overflow-x: hidden!important;
+}
+
+.svgSearh{
+    position: absolute;
+    left: 1.5%;    
+    top: 15%;
+    bottom: 7.11%;
+    height: 24px;
+    color: #B5B4B4;
+    
+}
+.searchInput{
+    width: 600px;
+    height: 28.8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    background: #F6F6F6;
+    border: 4px solid #F7AC1C;
+    border-radius: 30px;
+    padding-left:6% ;
+}
+.searchInput:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.searchButton{
+    position: absolute;
+    width: 113px;
+    height: 34.8px;
+    top:0px;
+    left: 530px;
+    background: #F6AC1C;
+    border: 4px solid #F7AC1C;
+    border-radius: 30px;   
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #F6F6F6;
+}
+.searchButton:active{
+    opacity: 0.8;
+}
+.input-box{
+    position: relative;
+}
+.logo{
+    height: 38px;
+}
+#getKarta{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 30px;
+    width: 200px;
+    height: 38.8px;    
+    background: #F6AC1C;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+#getKarta:active{
+    opacity: 0.8;
+}
+.logIn{
+    width: 100px;
+    height: 39px;
+    display: flex;
+    background: #F6F6F6;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.mainHeader{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+.unificationDiv{
+    width: 1322px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttonSort{
+    width: 220px;
+    height: 53px;
+    border: none;
+    background: #E6E4E4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.buttonSort>span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 25px;    
+    color: #000000;
+}
+.buttonSort:active{
+    opacity: 0.8;
+}
+.navKitchen{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #B1B1B1;
+    background-color: 10px;
+    width: 1500px;
+    margin-left: 5.8%;
+    border-radius: 20px;
+}
+.kitchen{
+    font-family: 'Roboto';
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.sectionMainPage{
+    margin-top: 20px;
+}
+.navKitchen a.active{
+    background-color: #FFF;
+    
+}
+.footerDelivery{
+    background-color: #000000;
+    
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;z-index: 99;
+    align-items: center;
+}
+.inFooter{
+    color: #FFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 15px;
+    text-decoration: none;
+}
+.footerNav,.footerFooter{
+    display: flex;
+    
+}
+.footerNav{
+    width: 50%;
+    justify-content: space-between;
+}
+.footerFooter{
+    width: 100%;
+    justify-content: space-between;
+}
+.footerNav .inFooter{
+    font-size: 20px;
+}
+.footerFooter .inFooter{
+    font-size: 20px;
+}
+.divInFooter{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: flex-start;
+    width: 900px;
+}
+.divInFooter>article{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.colorGray{
+    color: #B1B1B1;
+}
+.restoran{
+    width: 516px;
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 30px;
+    margin: 20px;
+}
+.restoran>a{
+    text-decoration: none;
+}
+
+.restoranImg img{
+    width: 516px;
+    height: 322px;
+    border-radius: 30px 30px 0px 0px;
+}
+.descripParagph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;    
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    color: #000000;
+    height: 30px;
+    align-items: center;
+    margin: 0;
+}
+.moneyImg{
+    margin: 3px;
+}
+.restorantsMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: max-content;
+    min-height: 550px;
+    
+}
+.flexIfoRate{
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+    
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.orangeDeliv{
+    color:#F6AC1C;
+}
+.prealoader{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color:rgba(0, 0, 0, 0.3);
+    
+}
+.boxMap{
+    background-color: #FFF;
+    width: 900px ;
+    border-radius: 30px;
+    height: 600px;
+    margin: auto;
+    margin-top: 60px;
+}
+.dicp{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    height: 25px;
+}
+h3.dicp{
+    font-weight: 700;
+    font-size: 27px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+h3.dicp span{
+    width: 200px;
+}
+.headDisp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headDisp .searchInput{
+    width: 800px;
+    margin-right: 40px;
+}
+.headDisp .searchButton{
+    top: 2px;
+    left: 744px;
+}
+.headDispsdafdsf{
+    padding: 0px;
+    align-items:start;
+    display: flex;
+    flex-direction: column;
+    padding: -10px;
+}
+.pFaCl{
+
+    height: 25px;
+}
+.faCl{
+    height: 30px;
+    color: #B1B1B1;
+    cursor: pointer;
+}
+.dsfsgs{
+    display: flex;
+    align-items: start;
+    
+    width: 800px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.box-min-map{
+    margin-top: 10px;
+}
+.map{
+    width: 900px ;    
+    height: 440px;
+    
+}
+ymaps{
+    border-radius:0 0 30px 30px;
+}
+.butInc{
+    background-color: #B1B1B1;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.mtetx{
+    color: rgb(158, 155, 152);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.prop{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    margin: 5px;
+}
+.weigthVal{
+    font-weight: 700;
+}
+.tdst label,select,option{
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.bg-weiht{
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.butMainInfo{
+    border: 0;
+    height: 56px;
+    display: flex;
+    position: relative;
+    min-width: 56px;
+    background: #dfd8d8fc;
+    text-align: left;
+    align-items: center;
+    margin-right: 8px;
+    border-radius: 16px;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Roboto';
+    bottom: 100px;
+}
+.infr{
+    padding: 0px 32px 32px;
+    overflow: auto;
+    font-size: 15px;
+    max-width: 424px;
+    max-height: 42vh;
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+    border-radius: 32px;
+}
+.btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: max-content;
+    height: 38.8px;
+    background: #F6AC1C;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    
+}
+.prel{
+    background:rgba(158, 158, 158, 0.5);
+}
+.logoutCL{
+    margin-bottom: 10px;
+}
+.logOut{
+    width: 180px;
+    height: 39px;
+    display: flex;
+    background: #F6F6F6;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activeLink{
+    background: rgba(246, 172, 28, 0.5);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.divNavColomn {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 835px;
+    background-color: #FFF;
+    align-items: center;
+}
+.divNavColomn nav {
+    display: flex;
+    height: 650px;
+    flex-direction: column;    
+    justify-content: flex-start;
+    align-items: center;
+}
+.widthSize{
+    width: 170px;
+    text-align:  center;
+    margin-top: 40px;
+}
+.imgPerson{
+    width: 70px;
+}
+.divPerImg{
+    margin-left: 20px;
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.activeLink{
+    background: rgba(246, 172, 28, 0.5);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.panelH2{
+    color:#F6AC1C;
+    font-family: 'Roboto';
+    font-size: 26px;   
+}
+.boxPanel{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 15% 80% ;
+    
+}
+.panelRes{
+    width: 750px;
+    margin-top: 50px;
+    margin-left: 200px;
+    height: max-content;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.panelRes .routeRefBack{
+    top:100px;
+    background-color: #F6AC1C;
+    cursor: pointer;
+}
+.nameUser{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 150px;
+    margin-left: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+.propFieldSet{
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+.propFieldSet label{
+    font-weight: 600;
+    color: #F6AC1C;
+}
+.changeBut{
+    position: absolute;
+    width: 113px;
+    height: 34.8px;
+    top:0px;
+    left: 535px;
+    background: #F6AC1C;
+    border: 4px solid #F7AC1C;
+    border-radius: 30px;   
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #F6F6F6;
+}
+.changeBut{
+    position: static;
+    font-size: 20px;
+    text-align: center;
+    padding-top:0px ;
+}
+.stripAddress,.stripOrder{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 30px;
+}
+.nameAddress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    width: 100px;
+    text-align: center;
+    color: #F6AC1C;
+    margin-right: 70px;
+}
+.weigthVal{
+    font-weight: 700;
+}
+.clOr{
+    color: #F6AC1C;
+}
+.btnP{
+    display:flex;
+    width:200px;
+    justify-content: space-between
+}
+.mplCL{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    height: 20px;
+    width: 50px;
+}
+.scrollRestaurant{
+    overflow-y:visible; 
+    overflow-x:hidden;
+    height: 800px;
+}
+.ords{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.float{
+    position: absolute!important;
+    top:200px;
+    left:300px;
+    z-index: 1000;
+}
